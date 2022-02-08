@@ -52,50 +52,124 @@ Run it:
 
 This will be your output:
 ```
-[(comment, //), 
-(keyword, int), 
-(identifier, x), 
-(separator, ;), 
-(identifier, x), 
-(operator, =), 
-(identifier, x), 
-(operator, +), 
-(literal, 5), 
-(separator, ;), 
-(comment, /*), 
-(comment, //), 
-(statement, for), 
-(separator, (), 
-(keyword, int), 
-(identifier, i), 
-(operator, =), 
-(literal, 0), 
-(separator, ,), 
-(identifier, i), 
-unknown
-, 
-(operator, =), 
-(literal, 4), 
-(separator, ;), 
-(identifier, i), 
-(operator, ++), 
-(separator, )), 
-(separator, {), 
-(identifier, x), 
-(operator, +=), 
-(identifier, i), 
-(separator, ;), 
-(separator, }), 
-(identifier, x), 
-(operator, ++), 
-(separator, ;), 
-unknown
-, 
-(identifier, _sda), 
-(operator, =), 
-(literal, "gdsdg"), 
-(separator, ;), 
-]
+Which file for it to open?: test.por
+Comments:                     //
+Comments:                     /*
+Keywords:                 double
+Identifiers:                   y
+Operators - Assignment:         =
+Literals:                     90
+Delimeters:                    ;
+Keywords:                 double
+Identifiers:                   x
+Operators - Assignment:         =
+Literals:                   1000
+Delimeters:                    ;
+Keywords:                  float
+Identifiers:                   y
+Operators - Assignment:         =
+Literals:                   9999
+Delimeters:                    ;
+Comments:                     //
+Keywords:                   char
+Identifiers:                   x
+Delimeters:                    [
+Literals:                    100
+Delimeters:                    ]
+Operators - Assignment:         =
+Literals:               "AfricanNative"
+Delimeters:                    ;
+Keywords:                   char
+Identifiers:                   x
+Delimeters:                    [
+Literals:                    100
+Delimeters:                    ]
+Operators - Assignment:         =
+Literals:               'AfricanNative'
+Delimeters:                    ;
+Keywords:                    out
+Delimeters:                    (
+Identifiers:                   e
+Delimeters:                    )
+Delimeters:                    ;
+Keywords:                  until
+Delimeters:                    (
+Identifiers:                   x
+Operators - Relational:        ==
+Literals:                      6
+Delimeters:                    )
+Delimeters:                    ;
+NoiseWords Keywords:              output
+Delimeters:                    (
+Literals:                 'Test'
+Delimeters:                    )
+Delimeters:                    ;
+NoiseWords Keywords:              output
+Delimeters:                    (
+Literals:                 "Test"
+Delimeters:                    )
+Delimeters:                    ;
+Keywords:                  until
+Delimeters:                    (
+Keywords:                    int
+Identifiers:                   i
+Operators - Assignment:         =
+Literals:                      0
+Delimeters:                    ,
+Identifiers:                   i
+Operators - Relational:        <=
+Literals:                      4
+Delimeters:                    ;
+Identifiers:                   i
+Operators - Arithmetic:        ++
+Delimeters:                    )
+Delimeters:                    {
+Identifiers:                   x
+Operators - Arithmetic:         +
+Operators - Assignment:         =
+Identifiers:                   i
+Delimeters:                    ;
+Identifiers:                   r
+Operators - Arithmetic:         +
+Operators - Assignment:         =
+Literals:                    999
+Delimeters:                    ;
+Delimeters:                    }
+NoiseWords Keywords:             integer
+Identifiers:             bitcoin
+Operators - Assignment:         =
+Literals:                  43000
+Delimeters:                    ;
+NoiseWords Keywords:              output
+Delimeters:                    (
+Identifiers:             bitcoin
+Delimeters:                    )
+Delimeters:                    ;
+Keywords:                    int
+Reserved Keywords:                  body
+Delimeters:                    (
+Delimeters:                    )
+Delimeters:                    {
+Identifiers:             slpMoon
+Operators - Assignment:         =
+Reserved Keywords:               invalid
+Delimeters:                    ;
+Reserved Keywords:                  next
+Delimeters:                    ;
+Keywords:                  float
+Operators - Assignment:         =
+Identifiers:                   x
+Operators - Arithmetic:         +
+Identifiers:                   y
+Delimeters:                    ;
+Keywords:                  float
+Identifiers:                   x
+Operators - Assignment:         =
+Identifiers:                   a
+Operators - Arithmetic:         +
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Invalid token: 1b
+Aborted (core dumped)
 ```
 
 As you can see there are few keywords or statements in my program. You can manually add any other values to their vector.
