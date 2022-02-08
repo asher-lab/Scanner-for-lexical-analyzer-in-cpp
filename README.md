@@ -222,7 +222,7 @@ Feel free to ask questions, find bugs(:D) or anything else.
 
 * **Amirhossein Hakimnejad** - *Initial work* - [amirhakimnejad](https://github.com/amirhakimnejad)
 * **Henry** - *Contributor* - [henry-bugfree](https://github.com/henry-bugfree)
-* *Asher Manangan** - *Forker* - I just modified this lexical analyzer because of interests, but not really used on project in school.
+* *Asher Manangan** - *Forker* - I just modified this lexical analyzer because of interests, thanks Amir and Henry.
 
 ## License
 
